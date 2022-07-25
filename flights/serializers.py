@@ -25,4 +25,4 @@ class BookingUpdateSerializer(serializers.ModelSerializer):
 class BookingDestroySerializer(serializers.ModelSerializer):
     class Meta:
         model= Booking
-        fields= "all"
+        fields= "__all__"
